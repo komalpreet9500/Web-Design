@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding:s 0;
+	box-sizing: border-box;
+}
+
+body{
+	padding-bottom: 400px;
+	border: 5px solid black;
+}
+
+.banner{
+	height:600px;
+	background-image: url(image.jpg);
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.textbook{
+	text-align: center;
+}
+
+.banner h1{
+	color:#FFC93C;
+	font-size: 80px;
+	margin-bottom: 15px;
+}
+
+.banner p{
+	color:#FFFFFF;
+	font-size: 15px;
+	margin-bottom: 20px;
+	max-width: 700PX;	
+}
+
+.banner .btn{
+	background:#E2BCB7;
+	color:#31326f;
+	padding: 5px 10px;
+	text-decoration: none;
+	display: inline-block;
+	border: 5px solid yellow;
+	border-radius: 5px;
+}
+
+.about{
+	
+	padding: 90px 0;
+}
+
+.container{
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.about-flex{
+	display: flex;
+	text-align: center;
+}
+
+.about-child-left{
+	width: 50%;
+	background:#FFFFFF;
+	padding: 20px;
+	margin-right: 40px;
+}
+
+.about-child-left h1{
+	margin-bottom: 20px; 
+	color:#c64756;
+}
+
+.about-child-left p{
+	color:#31326f;
+	max-width: 700px;
+	margin-bottom: 20px;
+	text-align: left;
+}
+
+.about-child-left a{
+	background: #310B0B;
+	color:#e2bcb7;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.about-child-right{
+	width: 50%;
+	background-image: url(burger.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+}
